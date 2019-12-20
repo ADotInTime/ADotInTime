@@ -8,16 +8,16 @@
 
 <body>
 <h1>
-<a href="index.html">Adot</a>'s Blog</h1>
+<a href="index.md">Adot</a>'s Blog</h1>
 <li>
 <ul>
 <p><big>2019:</big></p>
-<a href="/blog/The-Holidays-2019.html">Dec __, The Holiday's</a>
+<a href="/blog/The-Holidays-2019.md">Dec 19, The Holiday's</a>
 <ul>
 </li>
 </br>
 <big>
-<a href="index.html">Return to main page</a></big>
+<a href="index.md">Return to main page</a></big>
 
 </body>
 </html>
