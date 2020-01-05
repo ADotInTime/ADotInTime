@@ -2,7 +2,7 @@
 layout: post
 title: This is a test of the Emergancy Broadcast System
 date: 2019-12-19
-author: Kevin Cross
+author: Kevin Addot
 tags:
 - Lifestyle
 - Blogging
