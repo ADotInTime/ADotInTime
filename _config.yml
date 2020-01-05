@@ -45,7 +45,6 @@ plugins:
   - jemoji
   - jekyll-feed
   - jekyll-gist
-  - jekyll-youtube
 
 paginate: 8
 paginate_path: "/page/:num"
