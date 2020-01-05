@@ -11,4 +11,4 @@ thumbnail: {{site.baseurl}}/assets/img/avatar.jpg
 
 TEST TEST TEST TEST  TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
 
-{% youtube SuVd8k3QFP8 %}
+{% youtube "https://www.youtube.com/watch?v=ho8-vK0L1_8" %}

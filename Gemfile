@@ -4,5 +4,6 @@ group :jekyll_plugins do
   gem "jemoji"
   gem 'jekyll-feed'
   gem 'jekyll-gist'
+  gem "jekyll-youtube"
 gem "github-pages", group: :jekyll_plugins
 end
