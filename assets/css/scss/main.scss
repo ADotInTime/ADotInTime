@@ -14,9 +14,7 @@ body {
   font-family: 'Lato', sans-serif;
   color: $body-color;
   background-color: #fbfbfb;
-  background-image: url("{{site.baseurl}}/assets/img/background.png");
-  background-repeat: repeat;
-  margin: 0;
+    margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
