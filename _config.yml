@@ -1,0 +1,52 @@
+title: Kevin Cross's Website
+description: > # this means to ignore newlines until "baseurl:"
+  A blog and website about my various projects, thoughts, and works. I research Internet Culture, Psychology, and Metaphysics. I'm interested in lots of fassets of technology and science.
+permalink: ':title/'
+baseurl: # "/flexible-jekyll" # the subpath of your site, e.g. /blog
+url: "https://animaanimus.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Kevin Cross's Blog # add your name
+author-img: avatar.jpg # add your photo
+about-author: Welcome to my blog! This is a space where I write about various topics I'm intersted in. # add description
+pages-directory: # directory for all the sections of the website
+# social-twitter: # add your Twitter handle
+# social-facebook: # add your Facebook handle
+social-github: animaanimus # add your Github handle
+social-linkedin:  # add your Linkedin handle
+social-email: adotintime@tutanota.com # add your Email address
+
+# Disqus
+discus-identifier: anima_animus # mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+# highlighter: none
+
+# Markdown Processors
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+# kramdown:
+#  input: GFM
+#  syntax_highlighter: rouge
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  - jekyll-feed
+  - jekyll-gist
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

@@ -1,53 +1,19 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-<title>Kevin's Homepage</title>
-<link rel='stylesheet' type='text/css' href='/css/style.css'>
-<meta charset="utf-8"/>
-</head>
+---
+layout: main
+---
+{% for post in paginator.posts %}
+<article class="post">
+  {% if post.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {% else %}
+  {% endif %}
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+  </div>
+</article>
+{% endfor %}
 
-<body>
-
-<h1><big>Kevin Cross (ADot)</big> <small>(https://adotintime.github.io)</small></h1>
-
-<div class="mainpanel" >
-<h2 style="margin:0px">Welcome!</h2>
-
-<p>I am <a href="about.html">Kevin</a>. I am known for:</p>
-
-<ul>
-<li>Well, I'm known for nothing really right now...</li>
-</ul>
-
-<h2>Recent blog posts</h2>
-<ul>
-<!--BLOG!-->
-<!-- From Newest to Oldest! -->
-<li>2019, Dec, 27; <a href="blog/The-Next-Year_Dec_2019.html">The Next Year</a></li>
-<li>2019, Dec, 19; <a href="blog/The-Holidays_Dec_2019.html">The Holiday's have been good.</a></li>
-<!--3
-4
-5 -->
-</ul>
-<p><a href="blog.html">Blog Page</a></p>
-<!-- <h2>Hustles</h2>
-soon
-<h2>Projects</h2>
-soon
-<h2>Music</h2>
-soon -->
-<h2>Misc</h2>
-<ul>
-<li><p><a href="bookclub.html">Bookclub</a></p></li>
-<li><p><a href="gear.html">Gear & Software & Wishlist</a></p></li>
-</ul>
-<h2>Links</h2>
-<ul>
-<li><p><a href="https://adotintime.bandcamp.com/">My Bandcamp</a></p></li>
-<li><p><a href="https://xk5c.itch.io/">My Itch.io</a></p></li>
-<li><p>Social Media is the devil. (adotintime@tutanota.com)</p></li>
-</ul>
-</div>
-
-</body>
-</html>
+{% include pagination.html %}
