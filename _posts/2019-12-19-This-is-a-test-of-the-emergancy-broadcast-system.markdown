@@ -9,10 +9,6 @@ tags:
 thumbnail: {{site.baseurl}}/assets/img/avatar.jpg
 ---
 
-<<insertHTML:[{{site.baseurl}}/assets/posts/2019-12-19-This-is-a-test-of-the-emergancy-broadcast-system/embed-01.html]
+TEST TEST TEST TEST
 
-etc, etc, etc
-
-```{r, echo=FALSE}
-htmltools::includeHTML("test.html")
-```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SuVd8k3QFP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
