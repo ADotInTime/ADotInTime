@@ -35,6 +35,11 @@ layout: default
         {% else %}
           <li class="email"><a href="adotintime@tutanota.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
         {% endif %}
+        {% if site.social-telegram %}
+          <li class="telegram"><a href="https://t.me/{{site.social-telegram}}"><i class="fa fa-paper-plane-o"></i></a></li>
+        {% else %}
+          <li class="telegram"><a href="https://t.me/{{site.social-telegram}}"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a></li>
+        {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
