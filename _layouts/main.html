@@ -18,7 +18,7 @@ layout: default
   </header> <!-- End Header -->
   <footer>
     <section class="contact">
-      <h3 class="contact-title">Links / Contact</h3>
+      <h3 class="contact-title">Links/Contact</h3>
       <ul>
         {% if site.social-medium %}
           <li class="medium"><a href="https://medium.com/@{{site.social-medium}}"><i class="fa fa-medium"></i></a></li>
@@ -35,6 +35,12 @@ layout: default
         {% else %}
           <li class="itchio"><a href="https://{{site.social-itchio}}.itch.io/"><i class="fa fa-itch-io" aria-hidden="true"></i></a></li>
         {% endif %}
+        {% if site.social-youtube %}
+          <li class="youtube"><a href="https://www.youtube.com/channel/{{site.social-youtube}}"><i class="fa fa-youtube"></i></a></li>
+        {% else %}
+          <li class="youtube"><a href="https://www.youtube.com/channel/{{site.social-youtube}}"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+        {% endif %}
+        <br>
        {% if site.social-github %}
           <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
         {% else %}
