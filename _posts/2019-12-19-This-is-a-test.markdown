@@ -16,4 +16,3 @@ Nothing has happened yet...
 Please watch the following video to be assured of your safety... thisisatestonpagelengthtoseeifIam
 
 {% include youtubePlayer.html id=page.youtubeId %}
-{% include youtubePlayer.html id=QbJBo2wlX80 %}
