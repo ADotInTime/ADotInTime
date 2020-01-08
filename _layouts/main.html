@@ -31,15 +31,16 @@ layout: default
           <li class="bandcamp"><a href="https://{{site.social-bandcamp}}.bandcamp.com/"><i class="fa fa-bandcamp" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-itchio %}
-          <li class="itchio"><a href="https://{{site.social-itchio}}.itch.io/"><i class="fa fa-circle fa-stack-2x"><i class="fa fa-gamepad fa-stack-1x"></i></a></li>
+          <li class="itchio"><a href="https://{{site.social-itchio}}.itch.io/"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-gamepad fa-stack-1x"></i></a></li>
         {% else %}
-          <li class="itchio"><a href="https://{{site.social-itchio}}.itch.io/"><i class="fa fa-circle fa-stack-2x  aria-hidden="true">"><i class="fa fa-gamepad fa-stack-1x"  aria-hidden="true">></i></a></li>
+          <li class="itchio"><a href="https://{{site.social-itchio}}.itch.io/"><i class="fa fa-gamepad"  aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-youtube %}
           <li class="youtube"><a href="https://www.youtube.com/channel/{{site.social-youtube}}"><i class="fa fa-youtube"></i></a></li>
         {% else %}
           <li class="youtube"><a href="https://www.youtube.com/channel/{{site.social-youtube}}"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
         {% endif %}
+        <br>
        {% if site.social-github %}
           <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
         {% else %}
