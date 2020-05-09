@@ -9,10 +9,6 @@ tags:
 youtubeId: QbJBo2wlX80
 ---
 
-This is a test, do not be alarmed...
-
-Nothing has happened yet...
-
-Please watch the following video to be assured of your safety... thisisatestonpagelengthtoseeifIam
+This is a test post
 
 {% include youtubePlayer.html id=page.youtubeId %}
