@@ -6,7 +6,7 @@ author: Kevin Addot
 tags:
 - Lifestyle
 - Blogging
-youtubeId: QbJBo2wlX80
+youtubeId: nvWD7xT0Alk
 ---
   I've been writing a sci-fi novel just out of personal pleasure. I recently lost my place due to a fire and ended up homeless. I lost my computer so I had to get a laptop to replace it. It's just a cheap Lenovo A1. It's actually not that bad. Compared to my previous laptop it at least holds a battery charge.
 
