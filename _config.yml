@@ -7,16 +7,16 @@ url: "https://animaanimus.github.io" # the base hostname & protocol for your sit
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: Kevin Addot's Blog # add your name
+author: K S C # add your name
 author-img: avatar.jpg # add your photo
-about-author: M, 26, Canadian, Artist, Book Nerd, Anarchist, Hobbyist, Tech Geek, and Furry. # add description
+about-author: M, 26, Canadian, Artist, Book Nerd, Occultist, Anarchist, Hobbyist, and Tech Geek. # add description
 pages-directory: # directory for all the sections of the website
 # social-twitter: # add your Twitter handle
 # social-facebook: # add your Facebook handle
 social-github: adolus # add your Github handle
 social-linkedin:  # add your Linkedin handle
 social-email: adotintime@tutanota.com # add your Email address
-social-telegram: ToxicFerret
+# social-telegram: ToxicFerret
 social-kofi: toxicferret
 social-medium: toxicferret
 social-bandcamp: adotintime
