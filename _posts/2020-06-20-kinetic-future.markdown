@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Kinetic Dawn: Future Rebirth
-date: 2019-12-19
+title: Kinetic Dawn - Future Rebirth
+date: 2020-06-20
 author: K S C
 tags:
 - Projects
